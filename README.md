@@ -13,3 +13,7 @@ Please make sure you have the correct access rights
 
 ## How to solve
 tried in vain: ssh-add, re-login heroku
+
+good:
+$> eval `ssh-agent -s`
+$> ssh-add
